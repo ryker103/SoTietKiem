@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E1E1"
+    android:orientation="vertical"
+    tools:context=".DangNhapActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập bằng Email"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints" />
+
+   <!-- //email
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vui lòng nhập email"
+            android:inputType="textEmailAddress"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            app:errorEnabled="true"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    //pass
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vui lòng nhập mật khẩu"
+            android:inputType="textEmailAddress"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            app:errorEnabled="true"/>
+
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/emailLayoutDN"
+        android:ems="10"
+        android:hint="Nhập Email"
+        android:padding="16dp"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#4CAF50"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp"
+        tools:ignore="MissingConstraints"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp" />>
+
+
+    <EditText
+        android:id="@+id/passLayoutDN"
+        android:ems="10"
+        android:hint="Nhập mật khẩu"
+        android:padding="16dp"
+        android:textColor="#F44336"
+        android:textColorHighlight="#4CAF50"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp"
+        tools:ignore="MissingConstraints"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/butDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="20dp"
+        android:minHeight="50dp"
+        android:minWidth="300dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#fff"
+        android:background="#44C249"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>

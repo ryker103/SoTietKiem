@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DSSTKActivity">
+
+
+    <TextView
+        android:text="SỔ TIẾT KIỆM"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#BCD3BC"
+        android:textColor="#000000"
+        android:padding="15dip"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="Vietcombank (50.000.000 đ"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:background="#F5EDED"
+        android:textColor="#000000"
+        android:padding="15dip" />
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Mã số"
+            android:textSize="14dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Tổng tiền gốc"
+            android:background="#B7D1E6"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="Hạn gửi "
+            android:background="#B4D6D2"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="Lãi suất năm"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:textSize="14dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Ngày mở"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="VCB_001"
+            android:textSize="10dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="30.000.000 đ"
+            android:background="#B7D1E6"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="1 tháng "
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="5.5%"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="28/02/2018"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="VCB_002"
+            android:textSize="10dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="20.000.000 đ"
+            android:background="#B7D1E6"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="3 tháng"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="5.7%"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="14/05/2017"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+
+    //2
+    <TextView
+        android:text="ACB (80.000.000 đ)"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="15dip" />
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Mã số"
+            android:textSize="14dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Tổng tiền gốc"
+            android:background="#B7D1E6"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="Hạn gửi "
+            android:background="#B4D6D2"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="Lãi suất năm"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:textSize="14dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Ngày mở"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="VCB_001"
+            android:textSize="10dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="30.000.000 đ"
+            android:background="#B7D1E6"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="1 tháng "
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="5.6%"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="15/03/2017"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="VCB_002"
+            android:textSize="10dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="20.000.000 đ"
+            android:background="#B7D1E6"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="2 tháng"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="6%"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="02/10/2016"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+
+    //3
+
+    //2
+    <TextView
+        android:text="Đã tất toán (3 sổ)"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="15dip" />
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Mã số"
+            android:textSize="14dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Tổng tiền gốc"
+            android:background="#B7D1E6"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="Hạn gửi "
+            android:background="#B4D6D2"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="Lãi suất năm"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:textSize="14dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Ngày mở"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    //ROW
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="VCB_001"
+            android:textSize="10dp"
+            android:background="#B4D6D2"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="30.000.000 đ"
+            android:background="#B7D1E6"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+        <TextView
+
+            android:text="1 tháng "
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="5.6%"
+            android:background="#B7D1E6"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:padding="10dip"
+            android:gravity="center"/>
+        <TextView
+            android:text="15/03/2017"
+            android:background="#B4D6D2"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:padding="10dip"
+            android:gravity="center"/>
+
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="guithem"
+            android:text="SỬA"
+            android:background="#64C468"
+            android:shadowColor="#111"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/btnGuiThem"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="#64C468"
+            android:shadowColor="#111"
+            android:layout_marginRight="10dp"
+            android:onClick="guithem"
+            android:text="Gửi thêm"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnRutMotPhan"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="guithem"
+            android:text="RÚT MỘT PHẦN"
+            android:background="#64C468"
+            android:shadowColor="#111"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/btnTachToan"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="#64C468"
+            android:shadowColor="#111"
+            android:layout_marginRight="10dp"
+            android:onClick="guithem"
+            android:text="TÁCH TOÁN"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

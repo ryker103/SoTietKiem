@@ -59,7 +59,7 @@ public class DangKyActivity extends AppCompatActivity {
                     setResult(101, intent);
                     finish();
                     /*Intent intent1 = new Intent(DangKyActivity.class, DangNhapActivity.class);*/
-                    Toast.makeText(DangKyActivity.this, "Registered !!!" + intent.getStringExtra("name") + " " + intent.getStringExtra("pass"), Toast.LENGTH_SHORT).show();
+                   /* Toast.makeText(DangKyActivity.this, "Registered !!!" + intent.getStringExtra("name") + " " + intent.getStringExtra("pass"), Toast.LENGTH_SHORT).show();*/
                     startActivity(intent);
                 }
             }

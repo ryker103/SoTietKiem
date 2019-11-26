@@ -384,7 +384,7 @@
 
     //ROW
     <TableRow
-        android:id="@+id/tableRow9"
+        android:id="@+id/tableRow11"
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
 
@@ -442,7 +442,7 @@
             android:layout_height="60dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="50dp"
-            android:onClick="guithem"
+            android:onClick="sua"
             android:text="SỬA"
             android:background="#64C468"
             android:shadowColor="#111"
@@ -468,24 +468,35 @@
 
         <Button
             android:id="@+id/btnRutMotPhan"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:layout_marginRight="10dp"
             android:layout_marginLeft="50dp"
-            android:onClick="guithem"
-            android:text="RÚT MỘT PHẦN"
+            android:layout_marginRight="10dp"
             android:background="#64C468"
+            android:onClick="rutmotphan"
             android:shadowColor="#111"
+            android:text="RÚT MỘT PHẦN"
             tools:ignore="OnClick" />
         <Button
             android:id="@+id/btnTachToan"
-            android:layout_width="150dp"
+            android:layout_width="100dp"
             android:layout_height="60dp"
             android:background="#64C468"
             android:shadowColor="#111"
             android:layout_marginRight="10dp"
-            android:onClick="guithem"
+            android:onClick="tachtoan"
             android:text="TÁCH TOÁN"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnThemSTK"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="#64C468"
+            android:shadowColor="#111"
+            android:layout_marginRight="10dp"
+            android:onClick="themstk"
+            android:text="THÊM STK"
             tools:ignore="OnClick" />
 
     </LinearLayout>

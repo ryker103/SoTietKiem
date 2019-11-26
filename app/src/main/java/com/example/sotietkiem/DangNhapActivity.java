@@ -51,10 +51,25 @@ public class DangNhapActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(DangNhapActivity.this, DSSTKActivity.class);
                     startActivity(intent);
+                    Toast.makeText(DangNhapActivity.this, "Đăng nhập thành công !!!" + username + password, Toast.LENGTH_SHORT).show();
+                }
+                if(emailAc.getText().toString().equals("minh") && passAc.getText().toString().equals("minh"))
+                {
+
+                    Intent intent = new Intent(DangNhapActivity.this, DSSTKActivity.class);
+                    startActivity(intent);
+                    Toast.makeText(DangNhapActivity.this, "Đăng nhập thành công !!!" + username + password, Toast.LENGTH_SHORT).show();
+                }
+                if(emailAc.getText().toString().equals("minh98@gmail.com") && passAc.getText().toString().equals("Quangminh98@"))
+                {
+
+                    Intent intent = new Intent(DangNhapActivity.this, DSSTKActivity.class);
+                    startActivity(intent);
+                    Toast.makeText(DangNhapActivity.this, "Đăng nhập thành công !!!" + username + password, Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
-                    Toast.makeText(DangNhapActivity.this, "Login failed !!!" + username + password, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DangNhapActivity.this, "Đăng nhập thất bại !!!" + username + password, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -71,7 +86,7 @@ public class DangNhapActivity extends AppCompatActivity {
             edt2.setText(data.getStringExtra("pass"));*/
             username = data.getStringExtra("name");
             password = data.getStringExtra("pass");
-            Toast.makeText(DangNhapActivity.this, "test" + username+ " " + password, Toast.LENGTH_SHORT).show();
+            /*Toast.makeText(DangNhapActivity.this, "test" + username+ " " + password, Toast.LENGTH_SHORT).show();*/
         }
     }
 

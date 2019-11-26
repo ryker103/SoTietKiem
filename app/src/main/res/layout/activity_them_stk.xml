@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context=".ThemSTK">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm số tiết kiệm"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#3F51B5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtMaso"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Mã số: " />
+
+            <EditText
+                android:id="@+id/edtNgaygui"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:text="Ngày gửi: " />
+
+            <EditText
+                android:id="@+id/edtKyhan"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:text="Kỳ  hạn: " />
+
+            <EditText
+                android:id="@+id/edtLaisuatKKH"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:text="Lãi suất KKH: " />
+
+            <EditText
+                android:id="@+id/edtKhiDenHan"
+                android:layout_width="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Khi đến hạn:  " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtNganhang"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Ngân hàng: " />
+
+            <EditText
+                android:id="@+id/edtSotiengui"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:text="Số tiền gửi: " />
+
+            <EditText
+                android:id="@+id/edtLaisuat"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:text="Lãi suất: " />
+
+            <EditText
+                android:id="@+id/edtTralai"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:text="Trả lãi: " />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -489,7 +489,7 @@
             tools:ignore="OnClick" />
 
         <Button
-            android:id="@+id/btnThemSTK"
+            android:id="@+id/btnThemSoTK"
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:background="#64C468"

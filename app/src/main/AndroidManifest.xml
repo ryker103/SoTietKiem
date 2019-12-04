@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RutMotPhan"></activity>
+        <activity android:name=".TachToan"></activity>
+        <activity android:name=".GuiThem" />
+        <activity android:name=".RutMotPhan" />
         <activity android:name=".SuaSTK" />
         <activity android:name=".ThemSTK" />
         <activity android:name=".DSSTKActivity" />

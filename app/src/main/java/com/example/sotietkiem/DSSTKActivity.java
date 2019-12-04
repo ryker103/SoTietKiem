@@ -9,13 +9,13 @@ import android.widget.Button;
 
 public class DSSTKActivity extends AppCompatActivity {
 
-    Button btnThemSTK;
+    Button bunThemSTK;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dsstk);
 
-        btnThemSTK = findViewById(R.id.btnThemSTK);
+        bunThemSTK = findViewById(R.id.btnThemSoTK);
 
     }
 
@@ -28,6 +28,24 @@ public class DSSTKActivity extends AppCompatActivity {
     public void rutmotphan(View View)
     {
         Intent intent = new Intent(DSSTKActivity.this, RutMotPhan.class);
+        startActivity(intent);
+    }
+
+    public void guithem(View View)
+    {
+        Intent intent = new Intent(DSSTKActivity.this, GuiThem.class);
+        startActivity(intent);
+    }
+
+    public void tachtoan(View View)
+    {
+        Intent intent = new Intent(DSSTKActivity.this, TachToan.class);
+        startActivity(intent);
+    }
+
+    public void sua(View View)
+    {
+        Intent intent = new Intent(DSSTKActivity.this, SuaSTK.class);
         startActivity(intent);
     }
 }
